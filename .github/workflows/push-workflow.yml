@@ -14,4 +14,4 @@ jobs:
           distribution: adopt
           java-version: 11
       - name: Exécution des test
-        run: nvn test
+        run: mvn test
